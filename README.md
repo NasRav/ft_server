@@ -13,11 +13,11 @@ will be a WordPress website, phpMyAdmin and MySQL. You will need to make sure yo
 correct website.
 
 To build project:
-'''shell
+```shell
 docker build -t server .
-'''
+```
 
 To launch it:
-'''shell
+```shell
 docker run -it --rm -p 80:80 -p 443:443 server
-'''
+```
