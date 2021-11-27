@@ -11,3 +11,7 @@ will be a WordPress website, phpMyAdmin and MySQL. You will need to make sure yo
 
 • You will have to make sure that, depending on the url, your server redirects to the
 correct website.
+
+To build project: docker build -t server . 
+
+To launch it: docker run -it --rm -p 80:80 -p 443:443 server
